@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/thumbnail"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/person" />
+
+    <TextView
+        android:id="@+id/Tnim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="15dp"
+        android:textStyle="bold"
+        android:text="NIM : "
+        android:layout_toRightOf="@+id/thumbnail"/>
+
+    <TextView
+        android:id="@+id/nim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="15dp"
+        android:textStyle="bold"
+        android:layout_toRightOf="@+id/Tnim"/>
+
+    <TextView
+        android:id="@+id/Tnama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_below="@+id/nim"
+        android:layout_marginTop="2dp"
+        android:text="NAMA : "
+        android:layout_toRightOf="@+id/thumbnail"/>
+
+    <TextView
+        android:id="@+id/nama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_below="@+id/nim"
+        android:layout_marginTop="2dp"
+        android:layout_toRightOf="@+id/Tnama"/>
+
+    <TextView
+        android:id="@+id/Tkelas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_below="@+id/nama"
+        android:layout_marginTop="2dp"
+        android:text="Kelas : "
+        android:layout_toRightOf="@+id/thumbnail"/>
+
+    <TextView
+        android:id="@+id/kelas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_below="@+id/nama"
+        android:layout_marginTop="2dp"
+        android:layout_toRightOf="@+id/Tkelas"/>
+
+    <TextView
+        android:id="@+id/Ttelepon"
+        android:text="Telepon : "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_below="@+id/kelas"
+        android:layout_marginTop="2dp"
+        android:layout_toRightOf="@+id/thumbnail"/>
+
+    <TextView
+        android:id="@+id/telepon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_below="@+id/kelas"
+        android:layout_marginTop="2dp"
+        android:layout_toRightOf="@+id/Ttelepon"/>
+
+    <TextView
+        android:id="@+id/Temail"
+        android:text="Email : "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_below="@+id/telepon"
+        android:layout_marginTop="2dp"
+        android:layout_toRightOf="@+id/thumbnail"/>
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_below="@+id/telepon"
+        android:layout_marginTop="2dp"
+        android:layout_toRightOf="@+id/Temail"/>
+
+    <TextView
+        android:id="@+id/Tsocial"
+        android:text="Sosial : "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_below="@+id/email"
+        android:layout_marginTop="2dp"
+        android:layout_toRightOf="@+id/thumbnail"/>
+    <TextView
+        android:id="@+id/social"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_below="@+id/email"
+        android:layout_marginTop="2dp"
+        android:layout_toRightOf="@+id/Tsocial"/>
+
+</RelativeLayout>

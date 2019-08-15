@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/call"
+            android:icon="@drawable/phone"
+            android:title="Call ME NOW!!"
+            android:onClick="oncall"/>
+        <item
+            android:id="@+id/Message"
+            android:icon="@drawable/envelope"
+            android:title="Send me some Text!!"
+            android:onClick="messageme"/>
+        <item
+        android:id="@+id/logout"
+        android:icon="@drawable/logout"
+        android:title="SingOut"
+        android:onClick="Singout"/>
+        <item
+            android:id="@+id/about"
+            android:icon="@drawable/info"
+            android:title="About?"
+            android:onClick="about"
+            />
+
+    </group>
+
+
+
+</menu>
